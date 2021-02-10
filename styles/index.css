@@ -1,83 +1,10 @@
 .container {
   box-sizing: border-box;
 }  
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #4C5B84;
-  border-bottom: 10px solid #000;
-  padding: 10px 20px;
-}
-
-header img {
-  width: 60px;
-  height: 60px;
-}
-
-header nav {
-  text-align: right;
-} 
-
-header nav a {
-  display: inline-flex;
-  align-items: center;
-  color: #FFF;
-  font-family: "Fira Code", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  text-decoration: none;
-  margin-right: 30px;
-}
-
-header nav a::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-  background-color: #62C370;
-}
-
-.button {
-  display: inline-block;
-  width: 170px;
-  height: 60px;
-  margin-right: 0;
-  line-height: 60px;
-  text-align: center;
-  box-shadow: 5px 5px #000;
-  background-color: #62C370;
-}
-
 .banner {
-  text-decoration: none;
   background-image: url(/assets/desenvolvimento-web.jpg);
+  width: 100%;
   height: 807px;
-}
-
-.banner .title {
-  width: 600px;
-  padding: 43px 28px;
-  line-height: 56px;
-  background: #3A4042;
-  box-shadow: 10px 10px #000;
-  font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-}
-
-.banner .title a {
-  display: inline-block;
-  align-items: center;
-}
-
-.banner .title h1 {
-  font-size: 40px;
-  color: #62C370;
-}
-
-.banner .title h2 {
-  font-size: 30px;
-  color: #FFF;
 }
 
 
