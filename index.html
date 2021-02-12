@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/action.css">
     <link rel="stylesheet" href="styles/components/banner.css">
     <link rel="stylesheet" href="styles/components/button.css">
     <link rel="stylesheet" href="styles/components/title.css">
@@ -19,36 +19,34 @@
     <title>Yagho Mattos</title>
   </head>
   <body>
-    <div class="container"></div>
-      <header>
-        <img src="assets/logo.jpg" alt="logo">
+    <header>
+      <img src="assets/logo.jpg" alt="logo">
 
-        <nav>
-          <a href="">Skills</a>
-          <a href="">Projetos</a>
-          <a href="">Sobre</a>
-          <a href="">Contatos</a>
+      <nav>
+        <a class="action" href="">Skills</a>
+        <a class="action" href="">Projetos</a>
+        <a class="action" href="">Sobre</a>
+        <a class="action" href="">Contatos</a>
+        <a class="button" href="">Download CV</a>
+      </nav>
+    </header>
+
+    <section class="banner">
+      <div class="wrapper">
+        <div class="box">
+          <h1>Yagho Mattos</h1>
+          <h2>FullStack Developer</h2>
+        </div>
+
+        <div class="navigation">
           <a class="button" href="">Download CV</a>
-        </nav>
-      </header>
-
-      <section class="banner">
-        <div class="wrapper">
-          <div class="box">
-            <h1>Yagho Mattos</h1>
-            <h2>FullStack Developer</h2>
-          </div>
-
-          <div class="navigation">
-            <a class="button" href="">Download CV</a>
-            <a class="button" href="">Contatos</a>
-          </div>  
+          <a class="button" href="">Contatos</a>
         </div>  
-      </section>
-      <section class="skills"></section>
-      <section class="projects"></section>
-      <section class="about"></section>
-      <section class="contacts"></section>
-    </div>
+      </div>  
+    </section>
+    <section class="skills"></section>
+    <section class="projects"></section>
+    <section class="about"></section>
+    <section class="contacts"></section>
   </body>
 </html>
